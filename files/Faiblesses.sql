@@ -1,11 +1,12 @@
+-- Script créant la table Faiblesses 
+-- Supprime la table et la séquence pour pouvoir rappeler le script pour modifications
 DROP TABLE Faiblesses CASCADE CONSTRAINT;
-DROP SEQUENCE seqIdMob;
-
+ROP SEQUENCE seqIdFaib;
 -- Creation de la table
 CREATE TABLE Faiblesses (
 	idFaiblesse NUMBER,
-	type VARCHAR2(50) NOT NULL,
-	faiblesse VARCHAR2(50) NOT NULL,
+	type VARCHAR2(20) NOT NULL,
+	faiblesse VARCHAR2(20) NOT NULL,
 	PRIMARY KEY (idFaiblesse)
 );
 
@@ -15,4 +16,3 @@ INCREMENT BY 1
 MINVALUE 0;
 
 CREATE INDEX ind_typeF ON Faiblesses(type);
-CREATE INDEX ind_faibF ON Faiblesses(faiblesse);

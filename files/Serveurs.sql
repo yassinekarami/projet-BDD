@@ -1,5 +1,6 @@
+-- Script créant la table Serveurs 
+-- Supprime la table et la séquence pour pouvoir rappeler le script pour modifications
 DROP TABLE Serveurs CASCADE CONSTRAINT;
-DROP SEQUENCE seqIdMob;
 
 -- Creation de la table
 CREATE TABLE Serveurs (
@@ -8,3 +9,5 @@ CREATE TABLE Serveurs (
 	champion VARCHAR2(20) NOT NULL,
 	PRIMARY KEY (nomServeur)
 );
+
+CREATE INDEX ind_nomChamp ON Serveurs(champion);
