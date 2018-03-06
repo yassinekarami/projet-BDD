@@ -1,0 +1,134 @@
+INSERT INTO L3_112.Pokemons VALUES ('Pikachu','S',1,'Electrique',NULL,'Terrestre','Forêts');
+INSERT INTO L3_112.Pokemons VALUES ('Bulbizarre','S',1,'Feuille','Poison','Terrestre','Jungles');
+INSERT INTO L3_112.Pokemons VALUES ('Charmander','S',2,'Feu',NULL,'Terrestre','Plaines');
+INSERT INTO L3_112.Pokemons VALUES ('Charmeleon','M',2,'Feu',NULL,'Terrestre','Plaines');
+INSERT INTO L3_112.Pokemons VALUES ('Charizard','L',2,'Feu','Vol','Aerien','Volcans');
+INSERT INTO L3_112.Pokemons VALUES ('Squirtle','S',4,'Eau',NULL,'Aquatique','Côtes');
+INSERT INTO L3_112.Pokemons VALUES ('Magikarp','S',3,'Eau',NULL,'Aquatique','Rivières');
+INSERT INTO L3_112.Pokemons VALUES ('Gyarados','L',3,'Eau','Vol','Aquatique','Océans');
+INSERT INTO L3_112.Pokemons VALUES ('Machop','M',2,'Combat',NULL,'Terrestre','Montagnes');
+INSERT INTO L3_112.Pokemons VALUES ('Gengar','M',5,'Fantôme','Poison','Aerien','Villes');
+INSERT INTO L3_112.Pokemons VALUES ('Dratiny','S',1,'Dragon',NULL,'Aquatique','Océans');
+INSERT INTO L3_112.Pokemons VALUES ('Dragonair','L',1,'Dragon',NULL,'Aquatique','Océans');
+INSERT INTO L3_112.Pokemons VALUES ('Dragonite','L',1,'Dragon','Vol','Aerien','Océans');
+INSERT INTO L3_112.Pokemons VALUES ('Rattatta','S',4,'Normal',NULL,'Terrestre','Villes');
+INSERT INTO L3_112.Pokemons VALUES ('Ratticate','S',4,'Normal',NULL,'Terrestre','Villes');
+
+INSERT INTO L3_112.Dresseurs VALUES (L3_112.seqIdDres.nextval,'Noel','Kanto','Gyarados','HyperBeam');
+INSERT INTO L3_112.Dresseurs VALUES (L3_112.seqIdDres.nextval,'Yassine','Kanto','Bulbizarre','Tranche-Feuille');
+INSERT INTO L3_112.Dresseurs VALUES (L3_112.seqIdDres.nextval,'Ounbaydat','Kanto','Pikachu','Tonnerre');
+INSERT INTO L3_112.Dresseurs VALUES (L3_112.seqIdDres.nextval,'Red','Kanto','Pikachu','Frappe-Eclair');
+
+
+INSERT INTO L3_112.Dresseurs VALUES (L3_112.seqIdDres.nextval,'Gold','Johto','Gyarados','Surf');
+INSERT INTO L3_112.Dresseurs VALUES (L3_112.seqIdDres.nextval,'Red','Johto','Dragonite','HyperBeam');
+INSERT INTO L3_112.Dresseurs VALUES (L3_112.seqIdDres.nextval,'Silver','Johto','Machop','Frappe');
+
+
+INSERT INTO L3_112.Dresseurs VALUES (L3_112.seqIdDres.nextval,'Noel','Hoenn','Magikarpe','Splash');
+INSERT INTO L3_112.Dresseurs VALUES (L3_112.seqIdDres.nextval,'Green','Hoenn','Gengar','Cauchemar');
+INSERT INTO L3_112.Dresseurs VALUES (L3_112.seqIdDres.nextval,'Blue','Hoenn','Bulbizarre','Liannes');
+INSERT INTO L3_112.Dresseurs VALUES (L3_112.seqIdDres.nextval,'Gold','Hoenn','Charizard','Lance-Flamme');
+INSERT INTO L3_112.Dresseurs VALUES (L3_112.seqIdDres.nextval,'Silver','Hoenn','Charmeleon','Lance-Flamme');
+
+INSERT INTO L3_112.Serveurs VALUES ('Kanto',4,'Red');
+INSERT INTO L3_112.Serveurs VALUES ('Johto',3,'Gold');
+INSERT INTO L3_112.Serveurs VALUES ('Hoenn',5,'Blue');
+
+INSERT INTO L3_112.Attaques VALUES ('HyperBeam','Normal',150);
+INSERT INTO L3_112.Attaques VALUES ('Tranche-Feuille','Feuille',50);
+INSERT INTO L3_112.Attaques VALUES ('Tonnerre','Electrique',120);
+INSERT INTO L3_112.Attaques VALUES ('Frappe-Eclair','Electrique',70);
+INSERT INTO L3_112.Attaques VALUES ('Surf','Eau',80);
+INSERT INTO L3_112.Attaques VALUES ('Frappe','Combat',70);
+INSERT INTO L3_112.Attaques VALUES ('Splash','Normal',0);
+INSERT INTO L3_112.Attaques VALUES ('Cauchemar','Fantôme',40);
+INSERT INTO L3_112.Attaques VALUES ('Liannes','Feuille',30);
+INSERT INTO L3_112.Attaques VALUES ('Lance-Flamme','Feu',90);
+
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Insecte','Feu');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Insecte','Vol');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Insecte','Roche');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Electrique','Sol');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Feu','Eau');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Feu','Roche');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Feu','Sol');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Feuille','Insecte');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Feuille','Feu');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Feuille','Vol');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Feuille','Glace');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Feuille','Poison');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Normal','Combat');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Roche','Combat');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Roche','Feuille');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Roche','Sol');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Roche','Eau');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Vol','Electrique');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Vol','Glace');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Vol','Pierre');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Sol','Feuille');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Sol','Glace');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Sol','Eau');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Poison','Sol');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Poison','Psychique');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Dragon','Dragon');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Dragon','Glace');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Combat','Vol');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Combat','Psychique');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Fantôme','Fantôme');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Glace','Feu');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Glace','Combat');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Glace','Roche');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Psychique','Insecte');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Psychique','Fantôme');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Eau','Electrique');
+INSERT INTO L3_112.Faiblesses VALUES (L3_112.seqIdFaib.nextval,'Eau','Feuille');
+
+
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Insecte','Combat');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Insecte','Feuille');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Insecte','Sol');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Electrique','Electrique');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Electrique','Vol');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Feu','Insecte');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Feu','Feu');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Feu','Feuille');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Feu','Glace');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Feuille','Electrique');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Feuille','Feuille');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Feuille','Sol');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Feuille','Eau');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Normal','Fantôme');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Roche','Feu');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Roche','Vol');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Roche','Normal');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Roche','Poison');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Vol','Insecte');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Vol','Combat');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Vol','Feuille');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Vol','Sol');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Sol','Poison');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Sol','Roche');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Sol','Electrique');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Poison','Insecte');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Poison','Combat');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Poison','Feuille');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Poison','Poison');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Dragon','Electrique');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Dragon','Feu');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Dragon','Feuille');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Dragon','Eau');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Combat','Insecte');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Combat','Roche');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Fantôme','Normal');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Fantôme','Insecte');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Fantôme','Poison');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Fantôme','Combat');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Glace','Glace');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Psychique','Psychique');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Psychique','Combat');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Eau','Feu');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Eau','Glace');
+INSERT INTO L3_112.Resistances VALUES (L3_112.seqIdRes.nextval,'Eau','Eau');
+
+
