@@ -63,9 +63,9 @@ INSERT INTO L3_112.Dresseurs VALUES (L3_112.seqIdDres.nextval,'Gold','Johto','Dr
 INSERT INTO L3_112.Dresseurs VALUES (L3_112.seqIdDres.nextval,'Silver','Johto','Ronflex','Frappe');
 
 --REMPLISSAGE DE LA TABLE SERVEURS
-INSERT INTO L3_112.Serveurs VALUES ('Kanto',4,'Red');
-INSERT INTO L3_112.Serveurs VALUES ('Hoenn',2,'Red');
-INSERT INTO L3_112.Serveurs VALUES ('Johto',4,'Gold');
+INSERT INTO L3_112.Serveurs VALUES ('Kanto',10,'Red');
+INSERT INTO L3_112.Serveurs VALUES ('Hoenn',5,'Red');
+INSERT INTO L3_112.Serveurs VALUES ('Johto',25,'Gold');
 
 --REMPLISSAGE DE LA TABLE ATTAQUES
 INSERT INTO L3_112.Attaques VALUES ('Tonnerre','Electrique',100);
