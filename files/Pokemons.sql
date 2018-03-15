@@ -16,3 +16,5 @@ CREATE TABLE Pokemons (
 
 
 CREATE INDEX ind_nomP ON Pokemons(nomPokemon);
+CREATE INDEX ind_type1 ON Pokemons(type1);
+CREATE INDEX ind_type2 ON Pokemons(type2);
