@@ -8,6 +8,8 @@ CREATE TABLE Attaques (
 	typeAttaque VARCHAR2(50) NOT NULL,
 	nbDegats NUMBER,
 	PRIMARY KEY (nomAttaque)
+
+	CONSTRAINT attackDmg CHECK (nbDegats > -1)
 );
 
 CREATE INDEX ind_typeAtt ON Attaques(typeAttaque);
