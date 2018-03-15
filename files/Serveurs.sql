@@ -6,7 +6,7 @@ DROP TABLE Serveurs CASCADE CONSTRAINT;
 CREATE TABLE Serveurs (
 	nomServeur VARCHAR2(50) NOT NULL,
 	nbJoueur NUMBER,
-	champion VARCHAR2(20) NOT NULL,
+	champion VARCHAR2(20),
 	PRIMARY KEY (nomServeur)
 );
 
