@@ -19,3 +19,4 @@ INCREMENT BY 1
 MINVALUE 0;
 
 CREATE INDEX ind_nomD ON Dresseurs(nomDresseur);
+CREATE INDEX ind_servD ON Dresseurs(nomServeur);
