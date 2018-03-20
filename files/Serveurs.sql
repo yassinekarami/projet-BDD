@@ -1,3 +1,5 @@
+----------TABLE OK
+
 -- Script créant la table Serveurs 
 -- Supprime la table et la séquence pour pouvoir rappeler le script pour modifications
 DROP TABLE Serveurs CASCADE CONSTRAINT;
@@ -6,8 +8,8 @@ DROP TABLE Serveurs CASCADE CONSTRAINT;
 CREATE TABLE Serveurs (
 	nomServeur VARCHAR2(50) NOT NULL,
 	nbJoueur NUMBER,
-	champion VARCHAR2(20),
-	PRIMARY KEY (nomServeur)
+	champion VARCHAR2(20) NOT NULL,
+	CONSTRAINT pk_serveur PRIMARY KEY (nomServeur)
 );
 
 CREATE INDEX ind_nomChamp ON Serveurs(champion);

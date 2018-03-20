@@ -1,13 +1,15 @@
+---------TABLE OK
+
 -- Script créant la table Resistances 
 -- Supprime la table et la séquence pour pouvoir rappeler le script pour modifications
 DROP TABLE Resistances CASCADE CONSTRAINT;
-ROP SEQUENCE seqIdResi;
+DROP SEQUENCE seqIdResi;
 -- Creation de la table
 CREATE TABLE Resistances (
 	idResistance NUMBER,
 	type VARCHAR2(20) NOT NULL,
 	resistance VARCHAR2(20) NOT NULL,
-	PRIMARY KEY (idResistance)
+	CONSTRAINT pk_resistance PRIMARY KEY (idResistance)
 );
 
 CREATE SEQUENCE seqIdResi
