@@ -179,26 +179,7 @@ END;
 execute champion_ultime;
 show errors;
 
-*/
 
-CREATE OR REPLACE PROCEDURE statPokemon
-IS
-
-CURSOR c is SELECT * FROM Pokemons ORDER BY environement ASC;
-ligne c%ROWTYPE;
-
-
-
-BEGIN
-FOR ligne in c 
-	LOOP 
-			DBMS_OUTPUT.PUT_LINE('nom pokemon ' || ligne.nomPokemon || ' environement ' ||ligne.environement );
-
-	END LOOP;
-
-
-END;
-/
 
 execute statPokemon;
 show errors;

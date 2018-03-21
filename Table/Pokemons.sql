@@ -16,4 +16,3 @@ CREATE TABLE Pokemons (
 	CONSTRAINT pk_pokemon PRIMARY KEY (nomPokemon));
 
 
-CREATE INDEX ind_nomP ON Pokemons(nomPokemon);

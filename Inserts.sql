@@ -48,19 +48,6 @@ INSERT INTO Pokemons VALUES ('Magikarpe','S',1,'Eau',NULL,'Aquatique','Rivières
 INSERT INTO Pokemons VALUES ('Gyarados','L',2,'Eau','Vol','Aquatique','Oceans');
 
 
---REMPLISSAGE DE LA TABLE DRESSEURS
-INSERT INTO Dresseurs VALUES (seqIdDres.nextval,'Red','Kanto','Pikachu','Tonnerre');
-INSERT INTO Dresseurs VALUES (seqIdDres.nextval,'Noel','Kanto','Magikarpe','Splash');
-INSERT INTO Dresseurs VALUES (seqIdDres.nextval,'Yassine','Kanto','Bulbizarre','Tranch-Feuilles');
-INSERT INTO Dresseurs VALUES (seqIdDres.nextval,'Ounbaydat','Kanto','Pikachu','Frappe-Eclair');
-
-INSERT INTO Dresseurs VALUES (seqIdDres.nextval,'Red','Hoenn','Gengar','Cauchemar');
-INSERT INTO Dresseurs VALUES (seqIdDres.nextval,'Blue','Hoenn','Machop','Frappe');
-
-INSERT INTO Dresseurs VALUES (seqIdDres.nextval,'Noel','Johto','Gyarados','Tonnerre');
-INSERT INTO Dresseurs VALUES (seqIdDres.nextval,'Green','Johto','Dracofeu','Lance-Flamme');
-INSERT INTO Dresseurs VALUES (seqIdDres.nextval,'Gold','Johto','Dragonite','Hyper-Beam');
-INSERT INTO Dresseurs VALUES (seqIdDres.nextval,'Silver','Johto','Ronflex','Frappe');
 
 --REMPLISSAGE DE LA TABLE SERVEURS
 INSERT INTO Serveurs VALUES ('Kanto',4,'Noel');
@@ -164,6 +151,22 @@ INSERT INTO Resistances VALUES (seqIdResi.nextval,'Psychique','Psychique');
 INSERT INTO Resistances VALUES (seqIdResi.nextval,'Eau','Feu');
 INSERT INTO Resistances VALUES (seqIdResi.nextval,'Eau','Glace');
 INSERT INTO Resistances VALUES (seqIdResi.nextval,'Eau','Eau');
+
+
+--REMPLISSAGE DE LA TABLE DRESSEURS
+INSERT INTO Dresseurs VALUES (seqIdDres.nextval,'Red','Kanto','Pikachu','Tonnerre');
+INSERT INTO Dresseurs VALUES (seqIdDres.nextval,'Noel','Kanto','Magikarpe','Splash');
+INSERT INTO Dresseurs VALUES (seqIdDres.nextval,'Yassine','Kanto','Bulbizarre','Tranch-Feuilles');
+INSERT INTO Dresseurs VALUES (seqIdDres.nextval,'Ounbaydat','Kanto','Pikachu','Frappe-Eclair');
+
+INSERT INTO Dresseurs VALUES (seqIdDres.nextval,'Red','Hoenn','Gengar','Cauchemar');
+INSERT INTO Dresseurs VALUES (seqIdDres.nextval,'Blue','Hoenn','Machop','Frappe');
+
+INSERT INTO Dresseurs VALUES (seqIdDres.nextval,'Noel','Johto','Gyarados','Tonnerre');
+INSERT INTO Dresseurs VALUES (seqIdDres.nextval,'Green','Johto','Dracofeu','Lance-Flamme');
+INSERT INTO Dresseurs VALUES (seqIdDres.nextval,'Gold','Johto','Dragonite','Hyper-Beam');
+INSERT INTO Dresseurs VALUES (seqIdDres.nextval,'Silver','Johto','Ronflex','Frappe');
+
 
 
 
