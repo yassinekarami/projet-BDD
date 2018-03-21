@@ -3,5 +3,5 @@ SET SERVEROUTPUT ON.
 DROP VIEW Simple1stGenPokemon;
 
 SELECT *
-FROM Simple1stGenPokemon
+FROM SimplePokemon
 WHERE generation = 1;
